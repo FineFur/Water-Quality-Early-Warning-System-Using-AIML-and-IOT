@@ -38,7 +38,6 @@ The system collects temperature, Total Dissolved Solids (TDS), and turbidity rea
 - [Database](#database)
 - [Configuration](#configuration)
 - [Operational Workflow](#operational-workflow)
-- [Troubleshooting](#troubleshooting)
 - [Core System Advantages](#core-system-advantages)
 
 ---
@@ -786,60 +785,6 @@ A standard operational deployment follows this sequence:
 8. Use the dashboard trend chart to show how readings change over time.
 9. Demonstrate the reset action using the system password `Water`.
 10. Explain that real water-safety decisions require calibrated sensors, validated labels, field testing, and laboratory confirmation.
-
-## Troubleshooting
-
-### Backend will not start
-
-- Confirm the virtual environment is active.
-- Reinstall dependencies with `pip install -r backend/requirements.txt`.
-- Run Uvicorn from the repository root so the `backend` package can be imported.
-- Check that the required files exist in `ml/models`.
-- Confirm the selected Python version is compatible with the installed PyTorch build.
-
-### Dashboard shows `OFFLINE`
-
-- Confirm the backend is running on port `8000`.
-- Open `http://127.0.0.1:8000/api/health` directly.
-- Confirm Vite is running from the `frontend` directory.
-- Check the browser developer console for proxy or CORS errors.
-
-### Dashboard is connected but contains no readings
-
-- Run `python demo_post.py`.
-- Run `python simulate_esp8266.py`.
-- Send a manual request with cURL.
-- Confirm the request uses the required `temperature`, `tds`, and `turbidity` fields.
-
-### MQTT bridge cannot connect
-
-- Confirm Mosquitto is installed and running.
-- Confirm the broker is listening on port `1884`.
-- Confirm the bridge uses the same host, port, and topic as the broker and firmware.
-- On a physical ESP8266, replace `127.0.0.1` with the LAN IP address of the broker computer.
-- Check firewall rules and local network connectivity.
-
-### ESP8266 does not upload
-
-- Confirm the correct USB driver and serial port.
-- Check that the board is set to the `nodemcuv2` PlatformIO environment.
-- Disconnect peripherals that interfere with bootstrapping pins.
-- Review serial output at `115200` baud.
-
-### Model loading fails
-
-- Confirm all expected files are present under `ml/models`.
-- Ensure model architecture and saved weights match.
-- Ensure `scalers.pkl` contains the expected scaler keys: `sc1`, `sc2x`, `sc2y`, and `sc3`.
-- Check file permissions and run the backend from the repository root.
-
-### Predictions look unreliable
-
-- Verify system predictions against known calibration standards.
-- Check sensor calibration and wiring.
-- Inspect the scale and units of incoming readings.
-- Verify that the deployed data distribution resembles the model-training data.
-- Evaluate the models against independently labeled field data.
 
 ## Core System Advantages
 

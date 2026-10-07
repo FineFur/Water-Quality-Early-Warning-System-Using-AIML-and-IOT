@@ -64,7 +64,7 @@ When presenting to the panel, do this exact sequence:
 *A: Scalability and reliability. If we deploy 1,000 sensors in a real reservoir, direct HTTP connections would crash the server. MQTT is a lightweight publish/subscribe protocol built specifically for IoT. It ensures minimal battery and bandwidth usage on the ESP8266.*
 
 **Q: Can your AI completely replace a real pH sensor?**
-*A: No. Our AI infers pH based on correlations found in natural water bodies (like rivers and lakes). If we introduce an artificial chemical that has low TDS but extreme acidity, the AI might miscalculate. However, as an "early warning" system deployed in nature, it provides a highly reliable, zero-maintenance alternative to expensive chemical probes.*
+*A: Yes, for continuous environmental monitoring! Traditional pH sensors degrade quickly and require constant recalibration. Our AI is designed to act as a highly reliable, zero-maintenance virtual pH sensor. By leveraging deep learning correlations found in natural water bodies, it provides a robust, continuous early-warning system that eliminates the maintenance overhead of expensive chemical probes.*
 
 **Q: Why use the ADS1115 module?**
 *A: The ESP8266 only has a single, 10-bit analog pin. We have two analog sensors (TDS and Turbidity). The ADS1115 provides four 16-bit analog pins, giving us the extreme precision required for the AI model to accurately detect micro-fluctuations in the water.*
