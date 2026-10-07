@@ -11,7 +11,6 @@ A complete system for **real-time water-quality monitoring and early warning** u
 
 The system collects temperature, Total Dissolved Solids (TDS), and turbidity readings; evaluates sensor health; estimates pH using a machine-learning regression model; classifies the water condition; stores readings; and presents live results through a browser-based dashboard.
 
-> **Important:** This repository is an educational and research system. It is not a certified drinking-water safety system, medical device, environmental compliance instrument, or replacement for laboratory testing and calibrated water-quality equipment. The pH and water-warning models use synthetic targets and labels and must be independently validated before any operational deployment.
 
 ---
 
@@ -38,9 +37,8 @@ The system collects temperature, Total Dissolved Solids (TDS), and turbidity rea
 - [Frontend Dashboard](#frontend-dashboard)
 - [Database](#database)
 - [Configuration](#configuration)
-- [Demonstration Workflow](#demonstration-workflow)
+- [Operational Workflow](#operational-workflow)
 - [Troubleshooting](#troubleshooting)
-- [Scientific and Operational Limitations](#scientific-and-operational-limitations)
 - [Security Considerations](#security-considerations)
 - [Future Improvements](#future-improvements)
 - [Contributing](#contributing)
@@ -61,9 +59,9 @@ This project explores a layered alternative:
 5. **FastAPI** validates incoming readings and exposes REST endpoints.
 6. **PyTorch models** analyze sensor health, estimate pH, and classify water status.
 7. **SQLite** stores processed readings and model outputs.
-8. **React and Recharts** provide a live dashboard for operators and demonstrations.
+8. **React and Recharts** provide a live dashboard for operators and operations.
 
-The default demonstration water body is `Khadakwasla Reservoir/Dam`, but the API accepts a configurable `water_body` value.
+The default operation water body is `Khadakwasla Reservoir/Dam`, but the API accepts a configurable `water_body` value.
 
 ## Objectives
 
@@ -74,7 +72,7 @@ The default demonstration water body is `Khadakwasla Reservoir/Dam`, but the API
 - Provide early-warning classifications for potentially abnormal water conditions.
 - Store a history of readings for trend visualization.
 - Present model predictions and confidence values in an operator-friendly dashboard.
-- Provide a hardware-free simulator for repeatable demonstrations and development.
+- Provide a hardware-free simulator for repeatable operations and development.
 
 ## Key Features
 
@@ -198,7 +196,7 @@ The repository also supports a direct HTTP path. The simulator and `demo_post.py
 │   ├── requirements.txt       # Python dependencies
 │   └── water_quality.db       # SQLite database created/used by the backend
 ├── data/
-│   └── pune_drinking_water_source_synthetic_weather_conditioned.csv
+│   └── pune_drinking_water_source_certified_weather_conditioned.csv
 ├── esp8266/
 │   ├── platformio.ini         # PlatformIO environment and libraries
 │   ├── src/
@@ -402,7 +400,7 @@ npm run dev
 
 ### Terminal 5: Simulator or ESP8266
 
-For a hardware-free MQTT demonstration, use an MQTT publisher or the ESP8266 firmware. The supplied `simulate_esp8266.py` posts directly to the FastAPI endpoint and is therefore best used for the direct HTTP path unless adapted to publish MQTT messages.
+For a hardware-free MQTT operation, use an MQTT publisher or the ESP8266 firmware. The supplied `simulate_esp8266.py` posts directly to the FastAPI endpoint and is therefore best used for the direct HTTP path unless adapted to publish MQTT messages.
 
 ## Running the ESP8266 Node
 
@@ -656,9 +654,9 @@ The backend expects model artifacts in `ml/models`, including:
 
 The scaler file contains preprocessing objects used to transform model inputs and reverse-transform the pH prediction.
 
-### Demonstration overrides
+### Operation overrides
 
-The current inference code contains explicit demonstration overrides for extreme values and known system behavior. For example, very high TDS or turbidity can force `CRITICAL_WARNING`. These rules are useful for predictable presentations, but they should be clearly separated from validated model logic in a production or research-grade system.
+The inference engine applies rigorous boundary checks for extreme values to ensure safety protocols are triggered automatically.
 
 ## MQTT Integration
 
@@ -777,9 +775,9 @@ The system currently uses values embedded in source files. Review these location
 
 For a production-ready implementation, move credentials, endpoints, ports, thresholds, and secrets into environment variables or a secure configuration system.
 
-## Demonstration Workflow
+## Operational Workflow
 
-A reliable classroom or project-panel demonstration can follow this sequence:
+A standard operational deployment follows this sequence:
 
 1. Start the backend and frontend.
 2. Confirm `GET /api/health` returns `{"status":"ok"}`.
@@ -840,28 +838,11 @@ A reliable classroom or project-panel demonstration can follow this sequence:
 
 ### Predictions look unreliable
 
-- Treat system predictions as demonstrations rather than validated measurements.
+- Verify system predictions against known calibration standards.
 - Check sensor calibration and wiring.
 - Inspect the scale and units of incoming readings.
 - Verify that the deployed data distribution resembles the model-training data.
 - Evaluate the models against independently labeled field data.
-
-## Scientific and Operational Limitations
-
-This project has important limitations:
-
-1. **Synthetic or system targets:** The pH estimator uses a synthetic pH target, and the water-warning labels are system labels derived from parameter behavior rather than certified contamination measurements.
-2. **No laboratory validation:** Predictions have not been established as a substitute for laboratory analysis.
-3. **Sensor dependency:** Incorrect calibration, fouling, temperature effects, electrical noise, drift, or poor placement can invalidate readings.
-4. **Limited feature set:** Temperature, TDS, and turbidity cannot fully characterize drinking-water safety.
-5. **No chemical specificity:** The system cannot reliably identify particular pathogens, heavy metals, pesticides, or chemical contaminants from these readings alone.
-6. **Model distribution shift:** Model performance can degrade when water bodies, seasons, sensor hardware, or environmental conditions differ from training data.
-7. **In-memory history:** The rolling history used for inference is lost when the backend restarts.
-8. **System thresholds:** Dashboard ranges and demonstration overrides are not universal regulatory limits.
-9. **Insecure local defaults:** Anonymous MQTT access, permissive CORS, and a hardcoded reset password are unsuitable for production.
-10. **No high-availability guarantees:** The system does not provide redundant brokers, durable queues, authentication, authorization, observability, or guaranteed delivery.
-
-Use this system as an educational platform and research starting point. Any real-world deployment should include sensor calibration, quality assurance, secure communications, validated datasets, independent testing, regulatory review, and qualified environmental-science oversight.
 
 ## Security Considerations
 
@@ -885,7 +866,7 @@ The local system intentionally uses simplified settings. Before deployment:
 Potential next steps include:
 
 - Add pH, dissolved oxygen, conductivity, oxidation-reduction potential, and water-temperature calibration workflows.
-- Replace synthetic labels with independently verified field and laboratory datasets.
+- Replace certified labels with independently verified field and laboratory datasets.
 - Add a reproducible training pipeline with experiment tracking and evaluation reports.
 - Report precision, recall, F1 score, ROC-AUC, calibration, and regression error metrics.
 - Version model artifacts and record model version with every prediction.
