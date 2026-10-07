@@ -78,7 +78,7 @@ The default operation water body is `Khadakwasla Reservoir/Dam`, but the API acc
 - Temperature sensing through a DS18B20-compatible digital sensor.
 - Analog TDS and turbidity sensor support.
 - ADS1115 external ADC support for higher-resolution analog acquisition.
-- Optional 16x2 I2C LCD output for local status display.
+
 - MQTT telemetry published to the `water/telemetry` topic.
 
 ### Machine learning
@@ -125,7 +125,7 @@ The default operation water body is `Khadakwasla Reservoir/Dam`, but the API acc
             v
 +-----------------------+
 | ESP8266 edge node     |
-| ADS1115 + LCD + Wi-Fi |
+| ADS1115 + Wi-Fi |
 +-----------+-----------+
             |
             | MQTT: water/telemetry
@@ -244,7 +244,7 @@ The intended edge node can include:
 - Analog TDS sensor.
 - Analog turbidity sensor.
 - ADS1115 16-bit I2C analog-to-digital converter.
-- 16x2 I2C LCD.
+
 - Appropriate power supply, wiring, breadboard, and waterproofing.
 
 ### Hardware safety
@@ -433,7 +433,7 @@ Before uploading firmware, review `esp8266/src/main.cpp` and configure:
 - MQTT broker port, matching the Mosquitto listener.
 - MQTT topic, matching `water/telemetry`.
 - Sensor wiring and calibration constants.
-- LCD I2C address if it differs from the configured address.
+
 
 The ESP8266 must be able to reach the computer running Mosquitto over the local network. `127.0.0.1` on the ESP8266 refers to the device itself and must not be used as the broker address in a physical deployment.
 
