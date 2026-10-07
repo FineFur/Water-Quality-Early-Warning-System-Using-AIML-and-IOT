@@ -1,5 +1,5 @@
 /*
-  ESP8266 -> MQTT Water Quality Prototype
+  ESP8266 -> MQTT Water Quality System
   ----------------------------------------
   Reads DS18B20 (temperature), ADS1115 (TDS + turbidity),
   publishes JSON telemetry to MQTT broker on laptop.

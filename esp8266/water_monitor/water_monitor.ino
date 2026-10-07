@@ -1,6 +1,6 @@
 
 /*
-  ESP8266 -> MQTT water-quality prototype
+  ESP8266 -> MQTT water-quality system
   Libraries:
     OneWire, DallasTemperature, PubSubClient
     Adafruit ADS1X15

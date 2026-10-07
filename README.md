@@ -1,17 +1,17 @@
 # AI + IoT Water Quality Early Warning System
 
-![Project Status](https://img.shields.io/badge/status-prototype-orange)
+![Project Status](https://img.shields.io/badge/status-final_project-brightgreen)
 ![Primary Language](https://img.shields.io/badge/primary%20language-C%2B%2B-blue)
 ![Backend](https://img.shields.io/badge/backend-FastAPI-009688)
 ![Frontend](https://img.shields.io/badge/frontend-React%20%2B%20Vite-61DAFB)
 ![ML](https://img.shields.io/badge/ML-PyTorch-EE4C2C)
 ![IoT](https://img.shields.io/badge/IoT-ESP8266%20%2B%20MQTT-7B68EE)
 
-A complete prototype for **real-time water-quality monitoring and early warning** using low-cost IoT sensors, an ESP8266 edge node, MQTT messaging, a FastAPI backend, PyTorch neural networks, SQLite persistence, and a React dashboard.
+A complete system for **real-time water-quality monitoring and early warning** using low-cost IoT sensors, an ESP8266 edge node, MQTT messaging, a FastAPI backend, PyTorch neural networks, SQLite persistence, and a React dashboard.
 
 The system collects temperature, Total Dissolved Solids (TDS), and turbidity readings; evaluates sensor health; estimates pH using a machine-learning regression model; classifies the water condition; stores readings; and presents live results through a browser-based dashboard.
 
-> **Important:** This repository is an educational and research prototype. It is not a certified drinking-water safety system, medical device, environmental compliance instrument, or replacement for laboratory testing and calibrated water-quality equipment. The pH and water-warning models use prototype/synthetic targets and labels and must be independently validated before any operational deployment.
+> **Important:** This repository is an educational and research system. It is not a certified drinking-water safety system, medical device, environmental compliance instrument, or replacement for laboratory testing and calibrated water-quality equipment. The pH and water-warning models use synthetic targets and labels and must be independently validated before any operational deployment.
 
 ---
 
@@ -101,7 +101,7 @@ The default demonstration water body is `Khadakwasla Reservoir/Dam`, but the API
 - CORS enabled for local dashboard development.
 - SQLite database for readings and predictions.
 - Health, ingestion, history, and reset endpoints.
-- Password-protected reset endpoint for the prototype dashboard.
+- Password-protected reset endpoint for the system dashboard.
 
 ### Frontend
 
@@ -565,7 +565,7 @@ The frontend uses this endpoint and displays the newest reading, a trend chart, 
 
 Clears the in-memory feature history and deletes persisted readings.
 
-Prototype request:
+System request:
 
 ```json
 {
@@ -573,7 +573,7 @@ Prototype request:
 }
 ```
 
-> The reset password is currently hardcoded in the prototype. Do not use this endpoint as-is in a production deployment.
+> The reset password is currently hardcoded in the system. Do not use this endpoint as-is in a production deployment.
 
 ## Input and Output Schemas
 
@@ -658,13 +658,13 @@ The scaler file contains preprocessing objects used to transform model inputs an
 
 ### Demonstration overrides
 
-The current inference code contains explicit demonstration overrides for extreme values and known prototype behavior. For example, very high TDS or turbidity can force `CRITICAL_WARNING`. These rules are useful for predictable presentations, but they should be clearly separated from validated model logic in a production or research-grade system.
+The current inference code contains explicit demonstration overrides for extreme values and known system behavior. For example, very high TDS or turbidity can force `CRITICAL_WARNING`. These rules are useful for predictable presentations, but they should be clearly separated from validated model logic in a production or research-grade system.
 
 ## MQTT Integration
 
 ### Broker configuration
 
-`mqtt/mosquitto.conf` contains the local prototype configuration:
+`mqtt/mosquitto.conf` contains the local system configuration:
 
 ```conf
 listener 1884 0.0.0.0
@@ -757,11 +757,11 @@ The `readings` table stores:
 | `water_confidence` | Water-warning confidence. |
 | `raw_json` | Serialized combined record. |
 
-The database is initialized automatically when the FastAPI application starts. To reset data, use the dashboard reset action or call the reset endpoint with the prototype password.
+The database is initialized automatically when the FastAPI application starts. To reset data, use the dashboard reset action or call the reset endpoint with the system password.
 
 ## Configuration
 
-The prototype currently uses values embedded in source files. Review these locations before deployment:
+The system currently uses values embedded in source files. Review these locations before deployment:
 
 | Setting | Location |
 |---|---|
@@ -789,7 +789,7 @@ A reliable classroom or project-panel demonstration can follow this sequence:
 6. Run the simulator long enough to observe injected spike, noise, and stuck patterns.
 7. Explain the rolling-window features and three-model inference sequence.
 8. Use the dashboard trend chart to show how readings change over time.
-9. Demonstrate the reset action using the prototype password `Water`.
+9. Demonstrate the reset action using the system password `Water`.
 10. Explain that real water-safety decisions require calibrated sensors, validated labels, field testing, and laboratory confirmation.
 
 ## Troubleshooting
@@ -840,7 +840,7 @@ A reliable classroom or project-panel demonstration can follow this sequence:
 
 ### Predictions look unreliable
 
-- Treat prototype predictions as demonstrations rather than validated measurements.
+- Treat system predictions as demonstrations rather than validated measurements.
 - Check sensor calibration and wiring.
 - Inspect the scale and units of incoming readings.
 - Verify that the deployed data distribution resembles the model-training data.
@@ -850,22 +850,22 @@ A reliable classroom or project-panel demonstration can follow this sequence:
 
 This project has important limitations:
 
-1. **Synthetic or prototype targets:** The pH estimator uses a synthetic pH target, and the water-warning labels are prototype labels derived from parameter behavior rather than certified contamination measurements.
+1. **Synthetic or system targets:** The pH estimator uses a synthetic pH target, and the water-warning labels are system labels derived from parameter behavior rather than certified contamination measurements.
 2. **No laboratory validation:** Predictions have not been established as a substitute for laboratory analysis.
 3. **Sensor dependency:** Incorrect calibration, fouling, temperature effects, electrical noise, drift, or poor placement can invalidate readings.
 4. **Limited feature set:** Temperature, TDS, and turbidity cannot fully characterize drinking-water safety.
 5. **No chemical specificity:** The system cannot reliably identify particular pathogens, heavy metals, pesticides, or chemical contaminants from these readings alone.
 6. **Model distribution shift:** Model performance can degrade when water bodies, seasons, sensor hardware, or environmental conditions differ from training data.
 7. **In-memory history:** The rolling history used for inference is lost when the backend restarts.
-8. **Prototype thresholds:** Dashboard ranges and demonstration overrides are not universal regulatory limits.
+8. **System thresholds:** Dashboard ranges and demonstration overrides are not universal regulatory limits.
 9. **Insecure local defaults:** Anonymous MQTT access, permissive CORS, and a hardcoded reset password are unsuitable for production.
-10. **No high-availability guarantees:** The prototype does not provide redundant brokers, durable queues, authentication, authorization, observability, or guaranteed delivery.
+10. **No high-availability guarantees:** The system does not provide redundant brokers, durable queues, authentication, authorization, observability, or guaranteed delivery.
 
 Use this system as an educational platform and research starting point. Any real-world deployment should include sensor calibration, quality assurance, secure communications, validated datasets, independent testing, regulatory review, and qualified environmental-science oversight.
 
 ## Security Considerations
 
-The local prototype intentionally uses simplified settings. Before deployment:
+The local system intentionally uses simplified settings. Before deployment:
 
 - Replace `allow_anonymous true` with authenticated MQTT access.
 - Enable TLS for MQTT and HTTP traffic.
@@ -910,7 +910,7 @@ Contributions are welcome. A useful contribution should:
 3. Include tests or reproducible verification steps where practical.
 4. Avoid committing credentials, private data, or generated secrets.
 5. Document new configuration values and API changes.
-6. Clearly identify whether a change affects prototype behavior, scientific validity, or production security.
+6. Clearly identify whether a change affects system behavior, scientific validity, or production security.
 
 Suggested workflow:
 
