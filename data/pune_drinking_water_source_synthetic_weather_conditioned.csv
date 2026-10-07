@@ -1,0 +1,185 @@
+timestamp,water_body,temperature_C,tds_ppm,turbidity_NTU,synthetic_pH_target,weather_air_temp_C,weather_rain_mm,weather_rain_chance_pct,weather_condition,weather_source,data_type
+2026-09-19 14:00:00,Khadakwasla Reservoir/Dam,26.08,406.2,8.82,7.26,26.0,2.41,46,Light rain shower,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-19 14:00:00,Panshet Reservoir,25.75,369.2,7.45,7.35,26.0,2.41,46,Light rain shower,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-19 14:00:00,Varasgaon Reservoir,25.93,378.8,9.0,7.17,26.0,2.41,46,Light rain shower,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-19 14:00:00,Temghar Reservoir,26.09,427.4,9.0,7.2,26.0,2.41,46,Light rain shower,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-19 14:10:00,Khadakwasla Reservoir/Dam,25.97,397.6,9.97,7.24,26.0,2.41,46,Light rain shower,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-19 14:10:00,Panshet Reservoir,25.88,357.0,7.94,7.33,26.0,2.41,46,Light rain shower,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-19 14:10:00,Varasgaon Reservoir,26.03,383.0,7.72,7.21,26.0,2.41,46,Light rain shower,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-19 14:10:00,Temghar Reservoir,26.1,440.5,9.44,7.13,26.0,2.41,46,Light rain shower,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-19 14:20:00,Khadakwasla Reservoir/Dam,26.27,412.3,9.96,7.2,26.0,2.41,46,Light rain shower,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-19 14:20:00,Panshet Reservoir,25.99,353.5,7.54,7.34,26.0,2.41,46,Light rain shower,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-19 14:20:00,Varasgaon Reservoir,25.84,377.7,8.48,7.16,26.0,2.41,46,Light rain shower,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-19 14:20:00,Temghar Reservoir,26.12,430.5,10.43,7.13,26.0,2.41,46,Light rain shower,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-19 14:30:00,Khadakwasla Reservoir/Dam,26.41,401.6,9.9,7.23,26.0,2.41,46,Light rain shower,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-19 14:30:00,Panshet Reservoir,25.99,353.0,7.73,7.38,26.0,2.41,46,Light rain shower,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-19 14:30:00,Varasgaon Reservoir,26.05,393.4,7.91,7.19,26.0,2.41,46,Light rain shower,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-19 14:30:00,Temghar Reservoir,25.96,435.7,10.31,7.18,26.0,2.41,46,Light rain shower,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-19 14:40:00,Khadakwasla Reservoir/Dam,26.14,400.8,10.39,7.24,26.0,2.41,46,Light rain shower,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-19 14:40:00,Panshet Reservoir,26.06,349.2,7.44,7.35,26.0,2.41,46,Light rain shower,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-19 14:40:00,Varasgaon Reservoir,25.85,385.2,7.87,7.18,26.0,2.41,46,Light rain shower,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-19 14:40:00,Temghar Reservoir,26.18,412.8,9.6,7.14,26.0,2.41,46,Light rain shower,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-19 14:50:00,Khadakwasla Reservoir/Dam,26.22,399.5,9.07,7.26,26.0,2.41,46,Light rain shower,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-19 14:50:00,Panshet Reservoir,25.81,364.9,8.36,7.37,26.0,2.41,46,Light rain shower,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-19 14:50:00,Varasgaon Reservoir,25.77,397.7,9.82,7.1,26.0,2.41,46,Light rain shower,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-19 14:50:00,Temghar Reservoir,25.93,420.3,11.3,7.12,26.0,2.41,46,Light rain shower,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-19 15:00:00,Khadakwasla Reservoir/Dam,26.12,416.9,11.38,7.15,26.0,2.2,47,Light rain shower,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-19 15:00:00,Panshet Reservoir,26.07,356.3,7.83,7.31,26.0,2.2,47,Light rain shower,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-19 15:00:00,Varasgaon Reservoir,26.2,383.9,9.97,7.18,26.0,2.2,47,Light rain shower,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-19 15:00:00,Temghar Reservoir,25.98,433.3,10.39,7.14,26.0,2.2,47,Light rain shower,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-19 15:10:00,Khadakwasla Reservoir/Dam,26.21,418.1,9.4,7.24,26.0,2.2,47,Light rain shower,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-19 15:10:00,Panshet Reservoir,25.93,357.3,7.85,7.42,26.0,2.2,47,Light rain shower,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-19 15:10:00,Varasgaon Reservoir,25.99,399.7,8.89,7.15,26.0,2.2,47,Light rain shower,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-19 15:10:00,Temghar Reservoir,26.16,416.7,10.96,7.1,26.0,2.2,47,Light rain shower,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-19 15:20:00,Khadakwasla Reservoir/Dam,26.0,404.5,9.4,7.22,26.0,2.2,47,Light rain shower,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-19 15:20:00,Panshet Reservoir,26.05,347.3,7.87,7.32,26.0,2.2,47,Light rain shower,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-19 15:20:00,Varasgaon Reservoir,26.1,382.8,9.14,7.19,26.0,2.2,47,Light rain shower,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-19 15:20:00,Temghar Reservoir,26.12,422.6,10.18,7.05,26.0,2.2,47,Light rain shower,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-19 15:30:00,Khadakwasla Reservoir/Dam,26.29,425.3,8.73,7.17,26.0,2.2,47,Light rain shower,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-19 15:30:00,Panshet Reservoir,26.17,358.1,8.01,7.27,26.0,2.2,47,Light rain shower,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-19 15:30:00,Varasgaon Reservoir,26.26,383.9,8.52,7.2,26.0,2.2,47,Light rain shower,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-19 15:30:00,Temghar Reservoir,26.12,430.9,9.35,7.1,26.0,2.2,47,Light rain shower,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-19 15:40:00,Khadakwasla Reservoir/Dam,26.06,397.5,10.06,7.19,26.0,2.2,47,Light rain shower,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-19 15:40:00,Panshet Reservoir,26.05,351.3,7.0,7.34,26.0,2.2,47,Light rain shower,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-19 15:40:00,Varasgaon Reservoir,26.24,384.9,8.53,7.12,26.0,2.2,47,Light rain shower,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-19 15:40:00,Temghar Reservoir,25.98,432.3,10.06,7.11,26.0,2.2,47,Light rain shower,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-19 15:50:00,Khadakwasla Reservoir/Dam,26.1,411.7,9.39,7.24,26.0,2.2,47,Light rain shower,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-19 15:50:00,Panshet Reservoir,25.84,344.3,7.72,7.32,26.0,2.2,47,Light rain shower,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-19 15:50:00,Varasgaon Reservoir,25.99,377.8,8.27,7.22,26.0,2.2,47,Light rain shower,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-19 15:50:00,Temghar Reservoir,25.99,425.6,10.76,7.09,26.0,2.2,47,Light rain shower,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-19 16:00:00,Khadakwasla Reservoir/Dam,26.08,410.5,10.33,7.2,26.0,2.0,48,Light rain shower,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-19 16:00:00,Panshet Reservoir,25.85,355.6,7.55,7.32,26.0,2.0,48,Light rain shower,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-19 16:00:00,Varasgaon Reservoir,26.07,374.0,8.72,7.19,26.0,2.0,48,Light rain shower,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-19 16:00:00,Temghar Reservoir,25.87,426.1,11.18,7.03,26.0,2.0,48,Light rain shower,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-20 14:00:00,Khadakwasla Reservoir/Dam,25.18,400.9,11.03,7.23,25.0,1.8,40,Patchy/moderate rain nearby,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-20 14:00:00,Panshet Reservoir,24.91,353.2,7.76,7.33,25.0,1.8,40,Patchy/moderate rain nearby,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-20 14:00:00,Varasgaon Reservoir,25.13,383.4,8.99,7.19,25.0,1.8,40,Patchy/moderate rain nearby,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-20 14:00:00,Temghar Reservoir,25.26,434.8,9.58,7.18,25.0,1.8,40,Patchy/moderate rain nearby,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-20 14:10:00,Khadakwasla Reservoir/Dam,25.09,419.3,9.28,7.17,25.0,1.8,40,Patchy/moderate rain nearby,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-20 14:10:00,Panshet Reservoir,24.93,358.8,6.79,7.27,25.0,1.8,40,Patchy/moderate rain nearby,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-20 14:10:00,Varasgaon Reservoir,25.16,378.8,10.0,7.1,25.0,1.8,40,Patchy/moderate rain nearby,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-20 14:10:00,Temghar Reservoir,25.04,436.2,8.72,7.12,25.0,1.8,40,Patchy/moderate rain nearby,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-20 14:20:00,Khadakwasla Reservoir/Dam,25.4,401.6,7.45,7.22,25.0,1.8,40,Patchy/moderate rain nearby,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-20 14:20:00,Panshet Reservoir,24.9,344.0,6.74,7.35,25.0,1.8,40,Patchy/moderate rain nearby,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-20 14:20:00,Varasgaon Reservoir,24.85,377.4,8.7,7.14,25.0,1.8,40,Patchy/moderate rain nearby,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-20 14:20:00,Temghar Reservoir,25.09,428.5,9.32,7.14,25.0,1.8,40,Patchy/moderate rain nearby,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-20 14:30:00,Khadakwasla Reservoir/Dam,25.12,402.4,9.38,7.19,25.0,1.8,40,Patchy/moderate rain nearby,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-20 14:30:00,Panshet Reservoir,24.88,348.6,7.21,7.32,25.0,1.8,40,Patchy/moderate rain nearby,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-20 14:30:00,Varasgaon Reservoir,24.94,387.7,8.61,7.12,25.0,1.8,40,Patchy/moderate rain nearby,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-20 14:30:00,Temghar Reservoir,25.08,426.9,9.53,7.08,25.0,1.8,40,Patchy/moderate rain nearby,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-20 14:40:00,Khadakwasla Reservoir/Dam,25.05,414.2,8.12,7.19,25.0,1.8,40,Patchy/moderate rain nearby,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-20 14:40:00,Panshet Reservoir,25.04,350.8,8.69,7.31,25.0,1.8,40,Patchy/moderate rain nearby,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-20 14:40:00,Varasgaon Reservoir,24.86,393.0,7.58,7.15,25.0,1.8,40,Patchy/moderate rain nearby,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-20 14:40:00,Temghar Reservoir,24.93,409.4,9.77,7.1,25.0,1.8,40,Patchy/moderate rain nearby,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-20 14:50:00,Khadakwasla Reservoir/Dam,25.06,398.7,9.9,7.23,25.0,1.8,40,Patchy/moderate rain nearby,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-20 14:50:00,Panshet Reservoir,24.91,357.2,8.33,7.43,25.0,1.8,40,Patchy/moderate rain nearby,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-20 14:50:00,Varasgaon Reservoir,25.25,382.0,8.52,7.19,25.0,1.8,40,Patchy/moderate rain nearby,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-20 14:50:00,Temghar Reservoir,25.07,416.5,9.84,7.18,25.0,1.8,40,Patchy/moderate rain nearby,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-20 15:00:00,Khadakwasla Reservoir/Dam,24.68,403.5,10.38,7.18,24.5,2.6,45,Patchy/moderate rain nearby,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-20 15:00:00,Panshet Reservoir,24.55,358.3,8.2,7.32,24.5,2.6,45,Patchy/moderate rain nearby,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-20 15:00:00,Varasgaon Reservoir,24.52,393.7,9.28,7.19,24.5,2.6,45,Patchy/moderate rain nearby,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-20 15:00:00,Temghar Reservoir,24.49,433.5,10.6,7.11,24.5,2.6,45,Patchy/moderate rain nearby,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-20 15:10:00,Khadakwasla Reservoir/Dam,24.42,403.2,8.3,7.15,24.5,2.6,45,Patchy/moderate rain nearby,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-20 15:10:00,Panshet Reservoir,24.33,342.3,8.37,7.29,24.5,2.6,45,Patchy/moderate rain nearby,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-20 15:10:00,Varasgaon Reservoir,24.61,397.5,8.86,7.1,24.5,2.6,45,Patchy/moderate rain nearby,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-20 15:10:00,Temghar Reservoir,24.55,424.8,9.87,7.09,24.5,2.6,45,Patchy/moderate rain nearby,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-20 15:20:00,Khadakwasla Reservoir/Dam,24.58,407.4,10.28,7.16,24.5,2.6,45,Patchy/moderate rain nearby,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-20 15:20:00,Panshet Reservoir,24.57,352.7,8.72,7.31,24.5,2.6,45,Patchy/moderate rain nearby,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-20 15:20:00,Varasgaon Reservoir,24.6,381.8,7.82,7.17,24.5,2.6,45,Patchy/moderate rain nearby,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-20 15:20:00,Temghar Reservoir,24.52,422.8,10.48,7.08,24.5,2.6,45,Patchy/moderate rain nearby,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-20 15:30:00,Khadakwasla Reservoir/Dam,24.71,410.9,10.7,7.13,24.5,2.6,45,Patchy/moderate rain nearby,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-20 15:30:00,Panshet Reservoir,24.43,342.8,8.97,7.27,24.5,2.6,45,Patchy/moderate rain nearby,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-20 15:30:00,Varasgaon Reservoir,24.5,381.6,7.94,7.17,24.5,2.6,45,Patchy/moderate rain nearby,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-20 15:30:00,Temghar Reservoir,24.43,425.5,10.72,7.18,24.5,2.6,45,Patchy/moderate rain nearby,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-20 15:40:00,Khadakwasla Reservoir/Dam,24.72,397.0,8.9,7.21,24.5,2.6,45,Patchy/moderate rain nearby,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-20 15:40:00,Panshet Reservoir,24.47,351.9,7.01,7.29,24.5,2.6,45,Patchy/moderate rain nearby,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-20 15:40:00,Varasgaon Reservoir,24.68,391.9,9.7,7.17,24.5,2.6,45,Patchy/moderate rain nearby,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-20 15:40:00,Temghar Reservoir,24.59,438.3,9.59,7.1,24.5,2.6,45,Patchy/moderate rain nearby,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-20 15:50:00,Khadakwasla Reservoir/Dam,24.66,398.0,9.52,7.24,24.5,2.6,45,Patchy/moderate rain nearby,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-20 15:50:00,Panshet Reservoir,24.25,360.4,8.37,7.29,24.5,2.6,45,Patchy/moderate rain nearby,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-20 15:50:00,Varasgaon Reservoir,24.47,393.7,8.23,7.18,24.5,2.6,45,Patchy/moderate rain nearby,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-20 15:50:00,Temghar Reservoir,24.75,433.7,11.02,7.11,24.5,2.6,45,Patchy/moderate rain nearby,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-20 16:00:00,Khadakwasla Reservoir/Dam,24.14,412.1,11.2,7.18,24.0,3.9,32,Patchy/moderate rain nearby,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-20 16:00:00,Panshet Reservoir,23.94,362.9,8.28,7.35,24.0,3.9,32,Patchy/moderate rain nearby,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-20 16:00:00,Varasgaon Reservoir,24.12,391.5,9.02,7.15,24.0,3.9,32,Patchy/moderate rain nearby,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-20 16:00:00,Temghar Reservoir,24.17,439.3,12.58,7.1,24.0,3.9,32,Patchy/moderate rain nearby,DateTimeOnline Shivajinagar,synthetic_sensor_data_weather_conditioned
+2026-09-22 14:00:00,Khadakwasla Reservoir/Dam,27.01,409.9,8.1,7.28,27.0,0.0,35,Thunderstorm with rain,IMD Pune-Shivajinagar / NDTV Pune,synthetic_sensor_data_weather_conditioned
+2026-09-22 14:00:00,Panshet Reservoir,26.81,350.5,6.68,7.41,27.0,0.0,35,Thunderstorm with rain,IMD Pune-Shivajinagar / NDTV Pune,synthetic_sensor_data_weather_conditioned
+2026-09-22 14:00:00,Varasgaon Reservoir,26.98,389.4,6.54,7.15,27.0,0.0,35,Thunderstorm with rain,IMD Pune-Shivajinagar / NDTV Pune,synthetic_sensor_data_weather_conditioned
+2026-09-22 14:00:00,Temghar Reservoir,27.11,444.3,9.73,7.14,27.0,0.0,35,Thunderstorm with rain,IMD Pune-Shivajinagar / NDTV Pune,synthetic_sensor_data_weather_conditioned
+2026-09-22 14:10:00,Khadakwasla Reservoir/Dam,27.06,402.5,8.99,7.28,27.0,0.0,35,Thunderstorm with rain,IMD Pune-Shivajinagar / NDTV Pune,synthetic_sensor_data_weather_conditioned
+2026-09-22 14:10:00,Panshet Reservoir,26.9,353.6,7.0,7.38,27.0,0.0,35,Thunderstorm with rain,IMD Pune-Shivajinagar / NDTV Pune,synthetic_sensor_data_weather_conditioned
+2026-09-22 14:10:00,Varasgaon Reservoir,27.11,380.5,8.15,7.16,27.0,0.0,35,Thunderstorm with rain,IMD Pune-Shivajinagar / NDTV Pune,synthetic_sensor_data_weather_conditioned
+2026-09-22 14:10:00,Temghar Reservoir,27.03,424.8,8.74,7.15,27.0,0.0,35,Thunderstorm with rain,IMD Pune-Shivajinagar / NDTV Pune,synthetic_sensor_data_weather_conditioned
+2026-09-22 14:20:00,Khadakwasla Reservoir/Dam,27.11,409.4,7.91,7.32,27.0,0.0,35,Thunderstorm with rain,IMD Pune-Shivajinagar / NDTV Pune,synthetic_sensor_data_weather_conditioned
+2026-09-22 14:20:00,Panshet Reservoir,26.89,346.6,7.0,7.33,27.0,0.0,35,Thunderstorm with rain,IMD Pune-Shivajinagar / NDTV Pune,synthetic_sensor_data_weather_conditioned
+2026-09-22 14:20:00,Varasgaon Reservoir,26.98,385.3,7.21,7.23,27.0,0.0,35,Thunderstorm with rain,IMD Pune-Shivajinagar / NDTV Pune,synthetic_sensor_data_weather_conditioned
+2026-09-22 14:20:00,Temghar Reservoir,27.26,448.3,8.35,7.11,27.0,0.0,35,Thunderstorm with rain,IMD Pune-Shivajinagar / NDTV Pune,synthetic_sensor_data_weather_conditioned
+2026-09-22 14:30:00,Khadakwasla Reservoir/Dam,27.09,406.8,9.15,7.22,27.0,0.0,35,Thunderstorm with rain,IMD Pune-Shivajinagar / NDTV Pune,synthetic_sensor_data_weather_conditioned
+2026-09-22 14:30:00,Panshet Reservoir,26.88,363.3,7.39,7.35,27.0,0.0,35,Thunderstorm with rain,IMD Pune-Shivajinagar / NDTV Pune,synthetic_sensor_data_weather_conditioned
+2026-09-22 14:30:00,Varasgaon Reservoir,27.26,386.9,7.48,7.17,27.0,0.0,35,Thunderstorm with rain,IMD Pune-Shivajinagar / NDTV Pune,synthetic_sensor_data_weather_conditioned
+2026-09-22 14:30:00,Temghar Reservoir,27.23,446.6,9.54,7.1,27.0,0.0,35,Thunderstorm with rain,IMD Pune-Shivajinagar / NDTV Pune,synthetic_sensor_data_weather_conditioned
+2026-09-22 14:40:00,Khadakwasla Reservoir/Dam,27.02,402.0,9.84,7.29,27.0,0.0,35,Thunderstorm with rain,IMD Pune-Shivajinagar / NDTV Pune,synthetic_sensor_data_weather_conditioned
+2026-09-22 14:40:00,Panshet Reservoir,26.93,367.5,6.69,7.38,27.0,0.0,35,Thunderstorm with rain,IMD Pune-Shivajinagar / NDTV Pune,synthetic_sensor_data_weather_conditioned
+2026-09-22 14:40:00,Varasgaon Reservoir,27.1,384.7,7.2,7.17,27.0,0.0,35,Thunderstorm with rain,IMD Pune-Shivajinagar / NDTV Pune,synthetic_sensor_data_weather_conditioned
+2026-09-22 14:40:00,Temghar Reservoir,27.04,425.9,8.87,7.17,27.0,0.0,35,Thunderstorm with rain,IMD Pune-Shivajinagar / NDTV Pune,synthetic_sensor_data_weather_conditioned
+2026-09-22 14:50:00,Khadakwasla Reservoir/Dam,27.16,409.0,8.08,7.27,27.0,0.0,35,Thunderstorm with rain,IMD Pune-Shivajinagar / NDTV Pune,synthetic_sensor_data_weather_conditioned
+2026-09-22 14:50:00,Panshet Reservoir,26.86,357.2,6.25,7.34,27.0,0.0,35,Thunderstorm with rain,IMD Pune-Shivajinagar / NDTV Pune,synthetic_sensor_data_weather_conditioned
+2026-09-22 14:50:00,Varasgaon Reservoir,27.04,394.0,7.29,7.19,27.0,0.0,35,Thunderstorm with rain,IMD Pune-Shivajinagar / NDTV Pune,synthetic_sensor_data_weather_conditioned
+2026-09-22 14:50:00,Temghar Reservoir,27.1,433.1,8.85,7.17,27.0,0.0,35,Thunderstorm with rain,IMD Pune-Shivajinagar / NDTV Pune,synthetic_sensor_data_weather_conditioned
+2026-09-22 15:00:00,Khadakwasla Reservoir/Dam,27.18,420.1,9.3,7.23,27.0,0.0,40,Thunderstorm with rain,IMD Pune-Shivajinagar / NDTV Pune,synthetic_sensor_data_weather_conditioned
+2026-09-22 15:00:00,Panshet Reservoir,26.98,368.8,6.86,7.31,27.0,0.0,40,Thunderstorm with rain,IMD Pune-Shivajinagar / NDTV Pune,synthetic_sensor_data_weather_conditioned
+2026-09-22 15:00:00,Varasgaon Reservoir,27.12,395.2,7.2,7.2,27.0,0.0,40,Thunderstorm with rain,IMD Pune-Shivajinagar / NDTV Pune,synthetic_sensor_data_weather_conditioned
+2026-09-22 15:00:00,Temghar Reservoir,27.05,427.8,9.33,7.13,27.0,0.0,40,Thunderstorm with rain,IMD Pune-Shivajinagar / NDTV Pune,synthetic_sensor_data_weather_conditioned
+2026-09-22 15:10:00,Khadakwasla Reservoir/Dam,27.31,412.0,8.27,7.25,27.0,0.0,40,Thunderstorm with rain,IMD Pune-Shivajinagar / NDTV Pune,synthetic_sensor_data_weather_conditioned
+2026-09-22 15:10:00,Panshet Reservoir,26.71,376.0,5.97,7.35,27.0,0.0,40,Thunderstorm with rain,IMD Pune-Shivajinagar / NDTV Pune,synthetic_sensor_data_weather_conditioned
+2026-09-22 15:10:00,Varasgaon Reservoir,27.18,393.2,7.32,7.24,27.0,0.0,40,Thunderstorm with rain,IMD Pune-Shivajinagar / NDTV Pune,synthetic_sensor_data_weather_conditioned
+2026-09-22 15:10:00,Temghar Reservoir,27.21,428.1,8.47,7.15,27.0,0.0,40,Thunderstorm with rain,IMD Pune-Shivajinagar / NDTV Pune,synthetic_sensor_data_weather_conditioned
+2026-09-22 15:20:00,Khadakwasla Reservoir/Dam,27.21,415.4,8.14,7.27,27.0,0.0,40,Thunderstorm with rain,IMD Pune-Shivajinagar / NDTV Pune,synthetic_sensor_data_weather_conditioned
+2026-09-22 15:20:00,Panshet Reservoir,27.1,373.0,6.65,7.34,27.0,0.0,40,Thunderstorm with rain,IMD Pune-Shivajinagar / NDTV Pune,synthetic_sensor_data_weather_conditioned
+2026-09-22 15:20:00,Varasgaon Reservoir,27.06,376.1,7.47,7.24,27.0,0.0,40,Thunderstorm with rain,IMD Pune-Shivajinagar / NDTV Pune,synthetic_sensor_data_weather_conditioned
+2026-09-22 15:20:00,Temghar Reservoir,27.13,435.0,8.96,7.13,27.0,0.0,40,Thunderstorm with rain,IMD Pune-Shivajinagar / NDTV Pune,synthetic_sensor_data_weather_conditioned
+2026-09-22 15:30:00,Khadakwasla Reservoir/Dam,27.3,417.8,8.74,7.21,27.0,0.0,40,Thunderstorm with rain,IMD Pune-Shivajinagar / NDTV Pune,synthetic_sensor_data_weather_conditioned
+2026-09-22 15:30:00,Panshet Reservoir,26.92,349.7,6.32,7.38,27.0,0.0,40,Thunderstorm with rain,IMD Pune-Shivajinagar / NDTV Pune,synthetic_sensor_data_weather_conditioned
+2026-09-22 15:30:00,Varasgaon Reservoir,26.93,393.1,7.35,7.17,27.0,0.0,40,Thunderstorm with rain,IMD Pune-Shivajinagar / NDTV Pune,synthetic_sensor_data_weather_conditioned
+2026-09-22 15:30:00,Temghar Reservoir,27.0,435.9,9.39,7.19,27.0,0.0,40,Thunderstorm with rain,IMD Pune-Shivajinagar / NDTV Pune,synthetic_sensor_data_weather_conditioned
+2026-09-22 15:40:00,Khadakwasla Reservoir/Dam,27.26,404.0,8.77,7.29,27.0,0.0,40,Thunderstorm with rain,IMD Pune-Shivajinagar / NDTV Pune,synthetic_sensor_data_weather_conditioned
+2026-09-22 15:40:00,Panshet Reservoir,26.91,362.9,7.43,7.35,27.0,0.0,40,Thunderstorm with rain,IMD Pune-Shivajinagar / NDTV Pune,synthetic_sensor_data_weather_conditioned
+2026-09-22 15:40:00,Varasgaon Reservoir,27.18,394.2,9.78,7.16,27.0,0.0,40,Thunderstorm with rain,IMD Pune-Shivajinagar / NDTV Pune,synthetic_sensor_data_weather_conditioned
+2026-09-22 15:40:00,Temghar Reservoir,27.14,426.9,10.37,7.16,27.0,0.0,40,Thunderstorm with rain,IMD Pune-Shivajinagar / NDTV Pune,synthetic_sensor_data_weather_conditioned
+2026-09-22 15:50:00,Khadakwasla Reservoir/Dam,27.1,410.0,8.57,7.27,27.0,0.0,40,Thunderstorm with rain,IMD Pune-Shivajinagar / NDTV Pune,synthetic_sensor_data_weather_conditioned
+2026-09-22 15:50:00,Panshet Reservoir,26.91,354.8,6.43,7.4,27.0,0.0,40,Thunderstorm with rain,IMD Pune-Shivajinagar / NDTV Pune,synthetic_sensor_data_weather_conditioned
+2026-09-22 15:50:00,Varasgaon Reservoir,27.12,379.0,6.74,7.2,27.0,0.0,40,Thunderstorm with rain,IMD Pune-Shivajinagar / NDTV Pune,synthetic_sensor_data_weather_conditioned
+2026-09-22 15:50:00,Temghar Reservoir,27.08,425.8,9.58,7.1,27.0,0.0,40,Thunderstorm with rain,IMD Pune-Shivajinagar / NDTV Pune,synthetic_sensor_data_weather_conditioned
+2026-09-22 16:00:00,Khadakwasla Reservoir/Dam,28.09,409.9,8.79,7.21,28.0,0.0,45,Thunderstorm with rain,IMD Pune-Shivajinagar / NDTV Pune,synthetic_sensor_data_weather_conditioned
+2026-09-22 16:00:00,Panshet Reservoir,27.99,372.0,7.07,7.34,28.0,0.0,45,Thunderstorm with rain,IMD Pune-Shivajinagar / NDTV Pune,synthetic_sensor_data_weather_conditioned
+2026-09-22 16:00:00,Varasgaon Reservoir,27.87,385.2,6.91,7.26,28.0,0.0,45,Thunderstorm with rain,IMD Pune-Shivajinagar / NDTV Pune,synthetic_sensor_data_weather_conditioned
+2026-09-22 16:00:00,Temghar Reservoir,28.03,441.7,9.68,7.11,28.0,0.0,45,Thunderstorm with rain,IMD Pune-Shivajinagar / NDTV Pune,synthetic_sensor_data_weather_conditioned
+2026-09-23 17:00:00,Khadakwasla Reservoir/Dam,22.23,410.0,10.52,7.22,22.0,0.94,48,Light rain shower / patchy rain nearby,DateTimeOnline Pune,synthetic_sensor_data_weather_conditioned
+2026-09-23 17:00:00,Panshet Reservoir,21.91,360.2,6.63,7.29,22.0,0.94,48,Light rain shower / patchy rain nearby,DateTimeOnline Pune,synthetic_sensor_data_weather_conditioned
+2026-09-23 17:00:00,Varasgaon Reservoir,22.05,382.4,8.36,7.15,22.0,0.94,48,Light rain shower / patchy rain nearby,DateTimeOnline Pune,synthetic_sensor_data_weather_conditioned
+2026-09-23 17:00:00,Temghar Reservoir,22.11,421.1,9.57,7.11,22.0,0.94,48,Light rain shower / patchy rain nearby,DateTimeOnline Pune,synthetic_sensor_data_weather_conditioned
+2026-09-23 17:10:00,Khadakwasla Reservoir/Dam,22.23,391.9,8.49,7.2,22.0,0.94,48,Light rain shower / patchy rain nearby,DateTimeOnline Pune,synthetic_sensor_data_weather_conditioned
+2026-09-23 17:10:00,Panshet Reservoir,22.1,364.7,6.87,7.28,22.0,0.94,48,Light rain shower / patchy rain nearby,DateTimeOnline Pune,synthetic_sensor_data_weather_conditioned
+2026-09-23 17:10:00,Varasgaon Reservoir,21.92,396.0,7.95,7.1,22.0,0.94,48,Light rain shower / patchy rain nearby,DateTimeOnline Pune,synthetic_sensor_data_weather_conditioned
+2026-09-23 17:10:00,Temghar Reservoir,22.13,418.9,10.29,7.11,22.0,0.94,48,Light rain shower / patchy rain nearby,DateTimeOnline Pune,synthetic_sensor_data_weather_conditioned
+2026-09-23 17:20:00,Khadakwasla Reservoir/Dam,22.44,413.0,8.53,7.14,22.0,0.94,48,Light rain shower / patchy rain nearby,DateTimeOnline Pune,synthetic_sensor_data_weather_conditioned
+2026-09-23 17:20:00,Panshet Reservoir,22.15,364.3,8.23,7.22,22.0,0.94,48,Light rain shower / patchy rain nearby,DateTimeOnline Pune,synthetic_sensor_data_weather_conditioned
+2026-09-23 17:20:00,Varasgaon Reservoir,22.08,392.1,8.16,7.13,22.0,0.94,48,Light rain shower / patchy rain nearby,DateTimeOnline Pune,synthetic_sensor_data_weather_conditioned
+2026-09-23 17:20:00,Temghar Reservoir,22.15,421.6,9.34,7.08,22.0,0.94,48,Light rain shower / patchy rain nearby,DateTimeOnline Pune,synthetic_sensor_data_weather_conditioned
+2026-09-23 17:30:00,Khadakwasla Reservoir/Dam,21.98,401.4,8.54,7.2,22.0,0.94,48,Light rain shower / patchy rain nearby,DateTimeOnline Pune,synthetic_sensor_data_weather_conditioned
+2026-09-23 17:30:00,Panshet Reservoir,21.82,354.2,6.71,7.25,22.0,0.94,48,Light rain shower / patchy rain nearby,DateTimeOnline Pune,synthetic_sensor_data_weather_conditioned
+2026-09-23 17:30:00,Varasgaon Reservoir,22.08,384.5,8.63,7.1,22.0,0.94,48,Light rain shower / patchy rain nearby,DateTimeOnline Pune,synthetic_sensor_data_weather_conditioned
+2026-09-23 17:30:00,Temghar Reservoir,22.28,432.1,9.09,6.97,22.0,0.94,48,Light rain shower / patchy rain nearby,DateTimeOnline Pune,synthetic_sensor_data_weather_conditioned
+2026-09-23 17:40:00,Khadakwasla Reservoir/Dam,22.17,410.4,8.89,7.16,22.0,0.94,48,Light rain shower / patchy rain nearby,DateTimeOnline Pune,synthetic_sensor_data_weather_conditioned
+2026-09-23 17:40:00,Panshet Reservoir,21.8,361.9,6.46,7.31,22.0,0.94,48,Light rain shower / patchy rain nearby,DateTimeOnline Pune,synthetic_sensor_data_weather_conditioned
+2026-09-23 17:40:00,Varasgaon Reservoir,22.11,398.6,9.45,7.1,22.0,0.94,48,Light rain shower / patchy rain nearby,DateTimeOnline Pune,synthetic_sensor_data_weather_conditioned
+2026-09-23 17:40:00,Temghar Reservoir,22.0,429.0,9.59,7.07,22.0,0.94,48,Light rain shower / patchy rain nearby,DateTimeOnline Pune,synthetic_sensor_data_weather_conditioned
+2026-09-23 17:50:00,Khadakwasla Reservoir/Dam,22.13,416.8,9.44,7.11,22.0,0.94,48,Light rain shower / patchy rain nearby,DateTimeOnline Pune,synthetic_sensor_data_weather_conditioned
+2026-09-23 17:50:00,Panshet Reservoir,21.97,359.2,8.32,7.25,22.0,0.94,48,Light rain shower / patchy rain nearby,DateTimeOnline Pune,synthetic_sensor_data_weather_conditioned
+2026-09-23 17:50:00,Varasgaon Reservoir,22.17,392.1,7.99,7.07,22.0,0.94,48,Light rain shower / patchy rain nearby,DateTimeOnline Pune,synthetic_sensor_data_weather_conditioned
+2026-09-23 17:50:00,Temghar Reservoir,22.13,418.6,9.78,7.12,22.0,0.94,48,Light rain shower / patchy rain nearby,DateTimeOnline Pune,synthetic_sensor_data_weather_conditioned
+2026-09-23 18:00:00,Khadakwasla Reservoir/Dam,22.17,409.3,8.63,7.19,22.0,0.0,14,Light rain shower / patchy rain nearby,DateTimeOnline Pune,synthetic_sensor_data_weather_conditioned
+2026-09-23 18:00:00,Panshet Reservoir,21.95,358.3,7.63,7.28,22.0,0.0,14,Light rain shower / patchy rain nearby,DateTimeOnline Pune,synthetic_sensor_data_weather_conditioned
+2026-09-23 18:00:00,Varasgaon Reservoir,22.05,391.1,7.11,7.11,22.0,0.0,14,Light rain shower / patchy rain nearby,DateTimeOnline Pune,synthetic_sensor_data_weather_conditioned
+2026-09-23 18:00:00,Temghar Reservoir,22.16,416.3,10.54,7.05,22.0,0.0,14,Light rain shower / patchy rain nearby,DateTimeOnline Pune,synthetic_sensor_data_weather_conditioned

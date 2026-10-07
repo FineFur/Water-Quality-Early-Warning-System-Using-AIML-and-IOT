@@ -1,0 +1,8 @@
+{
+  "sensor_health_prototype_training_accuracy": 0.814,
+  "ph_prototype_mae": 0.0183,
+  "ph_prototype_rmse": 0.0239,
+  "ph_prototype_r2": 0.9296,
+  "water_warning_prototype_training_accuracy": 0.9946,
+  "warning_labels_note": "Prototype labels are derived from synthetic multi-parameter deviation rules, not field-validated contamination labels."
+}
