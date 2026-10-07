@@ -26,7 +26,6 @@
 #include <Adafruit_ADS1X15.h>
 #include <OneWire.h>
 #include <DallasTemperature.h>
-#include <LiquidCrystal_I2C.h>
 
 // =================================================================
 // CONFIGURATION — UPDATE THESE FOR YOUR NETWORK
@@ -65,8 +64,6 @@ DallasTemperature tempSensor(&oneWire);
 
 Adafruit_ADS1115 ads;
 bool adsFound = false;
-
-LiquidCrystal_I2C lcd(0x27, 16, 2); // Address confirmed by scanner
 
 WiFiClient espClient;
 PubSubClient mqtt(espClient);
@@ -148,14 +145,6 @@ void setup() {
   }
   if (count == 0) Serial.println("No I2C devices found!");
   Serial.println("-------------------\n");
-
-  // Initialize LCD
-  lcd.init();
-  lcd.backlight();
-  lcd.setCursor(0, 0);
-  lcd.print("Water Quality");
-  lcd.setCursor(0, 1);
-  lcd.print("Initializing...");
 
   // ADS1115 ADC
   adsFound = ads.begin();
@@ -248,25 +237,8 @@ void loop() {
       turbidity = TURBIDITY_CLEAR_NTU + ((voltageDrop / voltageRange) * ntuRange);
   }
 
-  // ----- 3. Serial debug & LCD output (same format as your test code) -----
+  // ----- 3. Serial debug output (same format as your test code) -----
   Serial.println("---------------------------------");
-
-  // Update LCD
-  lcd.clear();
-  lcd.setCursor(0, 0);
-  if (temperatureC <= -126.0f) {
-    lcd.print("T:ERR TDS:");
-    lcd.print((int)tds);
-  } else {
-    lcd.print("T:");
-    lcd.print(temperatureC, 1);
-    lcd.print("C TDS:");
-    lcd.print((int)tds);
-  }
-  lcd.setCursor(0, 1);
-  lcd.print("Tb:");
-  lcd.print(turbidity, 1);
-  lcd.print(" NTU");
 
   if (temperatureC <= -126.0f) {
     Serial.println("Water Temperature: ERROR - Sensor disconnected");

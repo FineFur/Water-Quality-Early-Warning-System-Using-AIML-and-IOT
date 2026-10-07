@@ -13,7 +13,7 @@ This document is a complete guide to understanding your project from top to bott
 ## 2. The Architecture & Data Flow
 If the panel asks "How does data get from the water to the screen?", explain this 5-step flow:
 
-1. **The Edge Node (Hardware):** The ESP8266 microcontroller gathers data. Because standard analog pins on microcontrollers are noisy and imprecise, we use a dedicated **ADS1115 16-bit ADC** to read the analog TDS and Turbidity sensors with extreme precision. The ESP8266 displays the raw data on a local I2C LCD and packages it into a JSON payload.
+1. **The Edge Node (Hardware):** The ESP8266 microcontroller gathers data. Because standard analog pins on microcontrollers are noisy and imprecise, we use a dedicated **ADS1115 16-bit ADC** to read the analog TDS and Turbidity sensors with extreme precision. The ESP8266 packages it into a JSON payload.
 2. **The Message Highway (MQTT):** The ESP8266 transmits the JSON payload over WiFi to a local MQTT Broker (Mosquitto) every 1 second. MQTT is used because it is lightweight and designed for unreliable IoT networks.
 3. **The Bridge (Data Ingestion):** A Python script (`mqtt_bridge.py`) listens to the MQTT broker, catches the incoming data, and immediately forwards it to our backend web server.
 4. **The Brains (FastAPI + AI Engine):** The Python backend receives the data and passes it to the `ml_engine.py`. The AI engine runs the data through three trained Neural Networks (PyTorch models). Once the AI finishes its predictions, the backend saves the final results to a local SQLite database (`water_data.db`).
@@ -27,7 +27,6 @@ If the panel asks "How does data get from the water to the screen?", explain thi
 * **Analog TDS Sensor:** Measures Total Dissolved Solids (parts per million).
 * **Analog Turbidity Sensor:** Measures water clarity (NTU).
 * **ADS1115:** A 16-bit Analog-to-Digital Converter. (Crucial detail: The ESP8266's built-in ADC is only 10-bit and maxes out at 1.0V or 3.3V depending on the board. The ADS1115 gives us professional-grade analog accuracy).
-* **16x2 I2C LCD:** Provides a local readout so technicians don't need a laptop to check the node.
 
 ---
 
@@ -48,7 +47,7 @@ Our backend doesn't just display data; it actively analyzes it using three separ
 ## 5. How to Demonstrate it Live
 When presenting to the panel, do this exact sequence:
 
-1. **Step 1 (Normal Water):** Start with the sensors in a cup of clean tap water. Show the panel the LCD and the dashboard. Explain that the AI recognizes the low TDS (~100 ppm) and low Turbidity (~1.0 NTU), estimates a neutral pH (~8.0), and classifies the water as `NORMAL`.
+1. **Step 1 (Normal Water):** Start with the sensors in a cup of clean tap water. Show the panel the dashboard. Explain that the AI recognizes the low TDS (~100 ppm) and low Turbidity (~1.0 NTU), estimates a neutral pH (~8.0), and classifies the water as `NORMAL`.
 2. **Step 2 (The Anomaly):** Pull the sensors completely out of the water and hold them in the air. 
    * *What happens:* The dashboard will flag a `STUCK` or `DISCONNECT` sensor warning. 
    * *What to say:* "Notice how the AI detected that the sensor was removed. By monitoring the statistical variance of the data stream, the AI realizes the sensor is no longer in a turbulent liquid and automatically flags a hardware fault."
